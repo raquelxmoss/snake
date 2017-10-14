@@ -2,6 +2,14 @@ import { run } from '@cycle/run';
 import xs, { Stream } from 'xstream';
 import { VNode, DOMSource, makeDOMDriver, div } from '@cycle/dom';
 const { makeCanvasDriver, rect } = require('cycle-canvas');
+// TODO:
+// render an egg
+// render a snake
+// on load, make the snake move
+// the snake responds to keyboard commands
+// when the snake eats the egg
+//  increase the length of the snake
+//  spawn a new egg
 
 type Sources = {
   // DOM : DOMSource;
@@ -16,8 +24,6 @@ type Vector = {
   x : number;
   y : number;
 }
-// given a blank canvas
-// spawn a single egg within the bounds of the canvas
 
 type Egg = {
   position : Vector;
