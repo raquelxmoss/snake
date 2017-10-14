@@ -1,0 +1,37 @@
+{
+  "name": "snake",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo ./src/index.ts:bundle.js --live -- -p tsify",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test/auto": "mocha --compilers ts:ts-node/register test/**/*.ts --watch -R min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raquelxmoss/snake.git"
+  },
+  "author": "Raquel Moss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raquelxmoss/snake/issues"
+  },
+  "homepage": "https://github.com/raquelxmoss/snake#readme",
+  "dependencies": {
+    "@cycle/dom": "^18.3.0",
+    "@cycle/run": "^3.3.0",
+    "xstream": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.34",
+    "browserify": "^14.4.0",
+    "budo": "^10.0.4",
+    "mocha": "^4.0.1",
+    "ts-node": "^3.3.0",
+    "tsify": "^3.0.3",
+    "typescript": "^2.5.3"
+  }
+}

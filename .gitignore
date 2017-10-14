@@ -1,7 +1,7 @@
 node_modules/
 .DS_Store
 npm-debug.log
-build/ 
+build/
 .tmp/
 .nyc_output/
 node_modules/
