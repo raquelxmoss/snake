@@ -21,7 +21,8 @@
   "dependencies": {
     "@cycle/dom": "^18.3.0",
     "@cycle/run": "^3.3.0",
-    "cycle-canvas": "^0.5.0",
+    "@cycle/time": "^0.10.1",
+    "cycle-canvas": "^0.6.0",
     "xstream": "^11.0.0"
   },
   "devDependencies": {
